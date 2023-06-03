@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      username: chadwick
+      password: chadwick123
+      host: localhost
+      port: 27017
+      database: mongodb
+      authentication-database: admin
+      uri: mongodb://chadwick:chadwick123@localhost:27017/mongodb?authSource=admin
